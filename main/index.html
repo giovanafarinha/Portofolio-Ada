@@ -1,0 +1,148 @@
+<!--MAIN / HOME PAGE HTML-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOME</title>
+    <!-- Font Awesome for Icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <!-- Header / Navbar alterado -->
+    <header>
+      <nav class="navbar section-content">
+        <!-- button  button dentro da nav bar -->
+        <button id="menu-open-button" class="fas fa-bars"></button>
+        <a href="#" class="nav-logo">
+          <h2 class="logo-text">GIÅVANA FARHN</h2>
+        </a>
+        <ul class="nav-menu">
+          <button id="menu-close-button" class="fas fa-times"></button>
+
+          <li class="nav-item">
+            <a href="#about" class="nav-link">ABOUT</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">CONTACT </a>
+          </li>
+          <li class="nav- item">
+            <a href="#works" class="nav-link"> WORKS </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main-section">
+      <div class="scroll-container">
+        <!-- Hero section -->
+        <section class="hero-section">
+          <div class="section-content">
+            <div class="hero-details">
+              <h2 class="title">Giovana Farinha</h2>
+              <h3 class="subtitle">admire the idea of creation</h3>
+              <p>full-stack developper trainee</p>
+            </div>
+          </div>
+        </section>
+        <section class="about-section" id="about">
+          <div class="about-content">
+            <h1 class="hidden-text">hidden text</h1>
+            <img
+              src="/src/about me with details 1.png"
+              alt=" About"
+              class="image-hero"
+            />
+            <div class="about-content-letters">
+              <h2 class="about-title">About me</h2>
+              <p class="text">
+                Hi! Im Giovana, I'm an full stack developper student at Ada Tech
+                School. Being a internacional student! bla bla Stepping about of
+                my confort zone , i dont know what to say on this part lol
+              </p>
+            </div>
+            <div class="social-link-list">
+              <a href="#" class="social-link">
+                <img
+                  src="/src/twitter.png"
+                  width="8px"
+                  class="social-media-icon"
+                />
+              </a>
+              <a href="#" class="social-link">
+                <img
+                  src="/src/instagram.png"
+                  width="8px"
+                  class="social-media-icon"
+                />
+              </a>
+              <a href="#" class="social-link">
+                <img
+                  src="/src/facebook.png"
+                  width="8px"
+                  class="social-media-icon"
+                />
+              </a>
+            </div>
+          </div>
+        </section>
+        <section class="works-section" id="works">
+          <div class="works-content">
+            <h1 class="hidden-text">hidden text</h1>
+            <h2 class="works-title">WORKS</h2>
+            <p class="text">
+              After 1 month at Ada Tech School, I have done different projects,
+              open the one you want to see down below type sh
+            </p>
+            <div class="projects-content">
+              <a href=" https://functions-exercise2.netlify.app/">
+                <img
+                  src="/src/functionsEx2.photo.png"
+                  alt=" exercise of the functions "
+                  width="339px"
+                  class="functions-projects"
+              /></a>
+              <a href="https://dom-exercise3.netlify.app/">
+                <img
+                  src="/src/DomEX3.png"
+                  alt=" exercise of the functions "
+                  width="400px"
+                  class="dom-projects"
+              /></a>
+              <!-- added to see the struture -->
+              <a href=" https://grid-exercise2.netlify.app/">
+                <img
+                  src="/src/grid:Exercise2.png"
+                  alt=" exercise of grid "
+                  width="462px"
+                  class="grid-projects"
+              /></a>
+            </div>
+          </div>
+        </section>
+        <section class="contact-section">
+          <div class="contact-content">
+            <h2 class="contact-title" id="contact">CONTACT</h2>
+            <p class="text">giovanafarinha8@gmail.com</p>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      this project was coded by
+      <a href="https://github.com/giovanafarinha" target="_blank ">
+        Giovana Farinha
+      </a>
+      and open-sourced on
+      <a href="#" target="_blank"> GitHub </a>
+      and is hosted on
+      <a href="#" target="_blank"> Netlify </a>
+    </footer>
+  </body>
+</html>
